@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMI_calculator</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title">BMI Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="height_in_cm">Height in cm</string>
+    <string name="weight_in_kg">Weight in kg</string>
+    <string name="result">Your BMI is %.2f</string>
+</resources>
