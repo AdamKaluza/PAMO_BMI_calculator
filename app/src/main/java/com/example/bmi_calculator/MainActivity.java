@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private void calculate() {
         if (!height.isEmpty() && !weight.isEmpty()) {
             Resources res = getResources();
-            Double bmi = Double.parseDouble(weight) / Integer.parseInt(height);
+            Double bmi = Double.parseDouble(weight) / Math.pow(Double.parseDouble(height) / 100, 2);
             String text = String.format(res.getString(R.string.result), bmi);
             result.setText(text);
         }
